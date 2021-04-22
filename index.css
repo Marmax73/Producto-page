@@ -14,6 +14,7 @@
    #nav-bar{
        margin-top: 0;
        margin-left: 12%;
+       position: fixed;
    }
    #header-img{
        background-color: white;
