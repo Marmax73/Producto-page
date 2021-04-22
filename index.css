@@ -1,0 +1,98 @@
+   body{
+       margin: 0;
+       padding: 0;
+       background-color: rgb(250, 248, 244);
+   }
+   main{
+       margin: auto;
+       width: 70%;
+       height: auto;
+       background-color: bisque;
+       
+       padding: 10%;
+   }
+   #nav-bar{
+       margin-top: 0;
+       margin-left: 12%;
+   }
+   #header-img{
+       background-color: white;
+       width: 20%;
+       height: 14%;
+       padding: 4%;
+       margin-top: 7%;
+   }
+   #parrafo-header-img{
+       padding: 9px;
+       background-color: rgb(214, 250, 159);
+   }
+   #video{
+       min-width: 400px;
+       min-height: 300px;
+       padding: 5%;
+       justify-content: center;
+       align-items: center;
+   }
+   #label-video{
+       padding:  10px;
+       background-color: whitesmoke;
+   }
+   #contenedor-video{
+       border: solid 1px brown;
+       padding: 2%;
+   }
+   #submit{
+       width: 33%;
+       height: 3%;
+       padding: 2%;
+       border-radius: 5px;
+       margin-top: 5%;
+    }
+       
+  
+    #seccion-form{
+        border: solid 1px brown;
+        padding: 8%;
+        background-color: rgba(205, 92, 92,0.2);
+    }   
+       
+  
+   #formulario{
+       border: solid 1px gray;
+       border-radius: 7px;
+       padding: 10px;
+       padding-bottom: 30px;
+   }
+
+   #card{
+       width: 80%;
+       height: auto;
+       justify-content: auto;
+       margin-right:  13px;
+   }
+
+   #card-body{
+       padding: 2em;
+       background-color: rgba(243, 243, 76, 0.3);
+   }
+
+   #card-imagenUno{
+       width: 90%;
+       height: auto;
+       
+   }
+   #flex-box{
+       display: flexbox;
+   }
+   
+   #ul-del-volver{
+       background-color: rgb(216, 214, 214);
+       margin-top: 3em;
+       height: 5em;
+           
+   }
+   @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

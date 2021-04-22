@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a id="home" class="navbar-brand" href="#home">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#submit">Enviar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#h3-header-formulario">Registro</a>
+                        </li>
+
+
+                        <li><a class="nav-link" class="dropdown-item" href="#footer">Footer</a></li>
+
+
+
+                    </ul>
+                    <form id="envio" class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" id="enviar" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container" id="home">
+            <div class="row">
+                <img id="header-img" src="imagenes/IMG_20210203_112655543.jpg" class="img-fluid" alt="foto_de_Bombo">
+                <label for="header-img">
+                    <p id="parrafo-header-img">
+                        Desde los montes más extensos del chaco salteño, las mejores maderas para los mejores
+                        <strong>Bombos
+                            Legüeros</strong>
+                    </p>
+                </label>
+                <hr>
+            </div>
+        </div>
+
+
+    </header>
+    <main class="">
+        <!--Seccion del video-->
+           <div class="video-page" class="img-fluid">
+            <div class="video" class="img-fluid">
+               <h2>About us</h2>
+               <iframe class="img-fluid" id="video" src="https://www.youtube.com/embed/1yPcH90WhVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+
+           </div>
+        <br>
+
+
+
+
+        <!--Sección del formulario-->
+        <section id="seccion-form">
+            <div id="form-header">
+                <h3 id="h3-header-formulario">Completa el formulario y descubre la manera más facil de obtener
+                    <strong>tu
+                        propio Bombo Legüero</strong></h3>
+                <p>Ingresando tus datos, tendrás un acceso gratis a la comunidad <strong>"Bombos argentinos".</strong>
+                </p>
+            </div>
+
+            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+            
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="email"><br>
+                <input type="submit" id="submit" value="Enviar Email">
+            </form>
+        </section>
+            <br id="separador-form-flexbox">
+            
+            
+            
+            
+               
+            
+            
+
+        <flex-box id="flex-box">
+            <div class="card-body" id="card-body">
+                <div class="card-group">
+                    <div class="card" id="card">
+                        <img class="img-fluid" class="card-img-top" id="card-imagenUno"
+                            src="imagenes/IMG_20210203_112655543.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Bombo con imagen deformada</h4>
+                            <p class="card-text">Este es el texto decorativo que sería descriptivo, en un caso real.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="img-fluid" class="card-img-top" id="card-imagenUno"
+                            src="imagenes/IMG_20210203_112655543.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Título dos</h4>
+                            <p class="card-text">Texto esplicativo, dos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </flex-box>
+        <br>
+        <footer id="footer">
+            <h2>Footer de la página </h2>
+            <h5>Marcelo Martínez:
+                
+                   
+                    <a class="btn btn-success btn-block" id="boton-volver" href="#home">Volver arriba</a>
+                 
+              
+        </footer>
+        <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <script id="index.js"></script>
+</body>
+
+</html>
